@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header {
+  height: 100vh;
+  min-width: 100%;
+  /*background-color: rgb(180, 212, 252);*/
+  background-image: url(/images/assassin-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  min-width: 100vw;
+  background-color: transparent;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(234, 156, 148);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #8d8d90;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.4s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: rgb(226, 55, 36);
+}
+
+.btn {
+  background-color: rgb(219, 102, 89);
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.4s ease-in-out;
+  color: black;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(226, 55, 36);
+  color: white;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  min-width: 100vw;
+}
+
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px 100px;
+}
+
+.left-box {
+  margin-left: 40px;
+  padding: 50px 0;
+}
+
+.enroll {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.m-right {
+  margin-right: 25px;
+}
+
+.ready {
+  color: rgb(226, 55, 36);
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.left-box h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
+  line-height: 44px;
+  color: rgb(131, 131, 131);
+}
+
+.left-box p {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 550px;
+  color: rgb(131, 131, 131);
+}
+
+span {
+  color: rgb(226, 55, 36);
+}
+
+.right-img {
+  width: 500px;
+}
+
+.feature {
+  background-color: white;
+  height: 50vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feat-title {
+  color: rgb(226, 55, 36);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.boxes {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  transition: 0.3s ease-in-out;
+}
+
+.boxes:hover {
+  box-shadow: 0px 5px 15px #bdbdbd;
+  cursor: pointer;
+}
+
+.boxes h3 {
+  font-size: 18px;
+  color: #4d4d4f;
+  margin: 5px 0;
+}
+
+.boxes p {
+  color: rgb(131, 131, 131);
+}
+
+.highlight {
+  box-shadow: 0px 5px 15px #bdbdbd;
+}
+
+.course-top {
+  padding-bottom: 100px;
+}
+
+.online-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  color: rgb(226, 55, 36);
+}
+
+.online-courses {
+  background-color: white;
+  height: auto;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.online-courses img {
+  width: 250px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.online-box {
+  background-color: white;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgb(177, 177, 177), 2px 2px 5px rgb(177, 177, 177);
+  transition: 0.3s ease-in-out;
+}
+
+.online-box:hover {
+  box-shadow: 0px 5px 15px #bdbdbd;
+  cursor: pointer;
+}
+
+.online-box h2 {
+  font-size: 18px;
+  color: rgb(46, 48, 48);
+  margin: 5px 0;
+}
+
+.online-box p {
+  color: rgb(99, 99, 99);
+  margin: 5px 0;
+}
+
+.course-btn {
+  font-size: 14px;
+  color: white;
+  padding: 8px 20px;
+  margin: 7px 0;
+}
+
+.bottom-feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.left-date {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.left-date img,
+.right-stud img {
+  width: 20px;
+  height: 20px;
+}
+
+.right-stud {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 30px;
+}
+
+.left-date p,
+.right-stud p {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+/* Testimonial Style*/
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 100px 100px;
+}
+
+.testi-title {
+  color: rgb(226, 55, 36);
+  padding-bottom: 40px;
+}
+
+.testimonial-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.testimonial-box img {
+  margin-right: 30px;
+}
+
+.testimonial-box p {
+  font-weight: 500;
+  color: rgb(99, 99, 99);
+}
+
+.testi-name {
+  margin-left: -200px;
+}
+
+/* Footer Style */
+
+footer {
+  background-color: rgb(131, 131, 131);
+  padding: 0 100px 100px 0;
+  height: 100vh;
+  min-width: 100%;
+}
+
+.footer-box {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  color: rgb(248, 241, 230);
+  padding-left: 20px;
+}
+
+.end {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer-box h3 {
+  padding-bottom: 15px;
+  padding-top: 30px;
+  text-align: center;
+}

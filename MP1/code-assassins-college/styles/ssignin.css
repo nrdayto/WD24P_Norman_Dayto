@@ -1,0 +1,56 @@
+Body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  min-width: 100%;
+  /*background-color: rgb(180, 212, 252);*/
+  background-image: url(/images/assassin-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  background-color: rgb(219, 102, 89);
+  width: 100%;
+  color: black;
+  font-weight: 550;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+form {
+  border: 3px solid #f1f1f1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 450px;
+  margin: 30px auto;
+  background-color: rgb(234, 156, 148);
+  border-radius: 10px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 2px solid rgb(234, 156, 148);
+  box-sizing: border-box;
+}
+button:hover {
+  background-color: rgb(226, 55, 36);
+  color: white;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px 0 30px;
+}
+
+span {
+  margin-left: 15px;
+}
+
+.container {
+  padding: 25px;
+  background-color: rgb(251, 238, 232);
+}

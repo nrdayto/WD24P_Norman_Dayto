@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/styles/ssignup.css" />
+  </head>
+  <body>
+    <form class="signup-form" action="/register" method="post">
+      <!-- form header -->
+      <div class="form-header">
+        <h1>Sign up</h1>
+      </div>
+
+      <!-- form body -->
+      <div class="form-body">
+        <!-- Firstname and Lastname -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="firstname" class="label-title">First name *</label>
+            <input
+              type="text"
+              id="firstname"
+              class="form-input"
+              placeholder="Enter your first name"
+              required="required"
+            />
+          </div>
+          <div class="form-group right">
+            <label for="lastname" class="label-title">Last name</label>
+            <input
+              type="text"
+              id="lastname"
+              class="form-input"
+              placeholder="Enter your last name"
+            />
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email" class="label-title">Email*</label>
+          <input
+            type="email"
+            id="email"
+            class="form-input"
+            placeholder="Enter your email"
+            required="required"
+          />
+        </div>
+
+        <!-- Passwrod and confirm password -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label for="password" class="label-title">Password *</label>
+            <input
+              type="password"
+              id="password"
+              class="form-input"
+              placeholder="Enter your password"
+              required="required"
+            />
+          </div>
+          <div class="form-group right">
+            <label for="confirm-password" class="label-title"
+              >Confirm Password *</label
+            >
+            <input
+              type="password"
+              class="form-input"
+              id="confirm-password"
+              placeholder="Enter your password again"
+              required="required"
+            />
+          </div>
+        </div>
+
+        <!-- Gender -->
+        <div class="horizontal-group">
+          <div class="form-group left">
+            <label class="label-title">Gender:</label>
+            <div class="input-group">
+              <label for="male"
+                ><input type="radio" name="gender" value="male" id="male" />
+                Male</label
+              >
+              <label for="female"
+                ><input type="radio" name="gender" value="female" id="female" />
+                Female</label
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- form-footer -->
+      <div class="form-footer">
+        <a href="/index.html"
+          ><button type="button" class="btn">Cancel</button></a
+        >
+        <a href="/index2.html"
+          ><button type="button" class="btn m-left">Create</button></a
+        >
+      </div>
+    </form>
+  </body>
+</html>
